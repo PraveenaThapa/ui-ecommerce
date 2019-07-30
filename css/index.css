@@ -1,0 +1,110 @@
+*{box-sizing: border-box;}
+/*TOP MOST HEADER*/
+.header1{
+    background-color: black;
+    margin: 1px;
+    height: 40px;
+    position: fixed;
+    display: block;
+    z-index: 1;
+    width:100%;
+}
+.wrap{  
+    padding-left: 15px;
+    height: 40px;
+    width: 300px;
+}
+.admin{
+    font-size: 25px;
+    color: rgb(236, 228, 228); 
+    display: inline;
+    padding-left: 10px;
+    
+}
+.visit {
+    font-size: 25px;
+    text-decoration: none;
+    float: right;
+    padding-right: 25px;
+    
+}
+.visit a{
+    color:white;
+    padding-top: 2px;
+}
+/*SEARCH HEADER*/
+.header-main{
+    height: 100px;
+    padding: 10px;
+}
+.searchbar{
+    height: 70px;
+   padding: 2px; 
+}
+.col-lg-3{
+    height: 70px;
+}
+.brand-wrap{
+    width:  170px;
+    }
+.input-group {
+   height: 50px;
+   width: 50%;
+    }
+.widgets-wrap.d-flex.justify-content-end {
+        height: 60px;
+    }   
+a.icontext {
+        height: 60px;
+    }
+large, medium, span{
+    color: black;
+}
+nav.navbar.navbar-expand-lg.navbar-dark.bg-secondary {
+    border-top: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+}
+.navbar{
+    padding: 0px;
+}
+header.section-heading.heading-line{
+    text-align: center;
+}
+/*dropdowns menus*/
+.nav-link{
+    position: relative;
+    display: inline-block;
+}
+.men-content a, .women-content a, .electronics-content a {
+    display: block;
+    border: 1px solid gray;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 5px;
+    font-size: 20px;
+    color: black;
+}
+.men-content , .women-content , .electronics-content{
+    display:none ;
+    position: absolute;
+    z-index: 10;
+} 
+ .nav-item1,.nav-item2,.nav-item3, .nav-item4, .nav-item5{
+    padding-left: 20px;
+    padding-right:10px;
+}       
+.nav-item1 :hover .men-content {
+    display: block;  
+}
+.nav-item2 :hover .women-content{
+    display: block;
+}
+.nav-item3 :hover .electronics-content{
+    display: block;
+}
+
+
+
+
+
